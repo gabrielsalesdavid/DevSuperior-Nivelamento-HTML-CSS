@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Loja Top</h1>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Cadastro</h2>
+        <form action="obrigado.html">
+        <div>
+          <label for="ctrl-name">Nome</label>
+          <input
+            id="ctrl-name"
+            name="'name"
+            type="text"
+            placeholder="Digite o seu nome"
+          />
+        </div>
+        <div>
+          <label for="ctrl-email">Email</label>
+          <input
+            id="ctrl-email"
+            name="'email"
+            type="text"
+            placeholder="Digite o seu email"
+          />
+        </div>
+        <div>
+          <label for="ctrl-password">Senha</label>
+          <input
+            id="ctrl-password"
+            name="password"
+            type="password"
+            placeholder="Digite a sua senha"
+          />
+        </div>
+        <div>
+          <label for="ctrl-city">Cidade</label>
+          <select name="city" id="ctrl-city"></select>
+          <option value="1">São Paulo</option>
+          <option value="2">Belo Horizonte</option>
+          <option value="3">Recife</option>
+          <option value="4">Porto Alegre</option>
+        </div>
+        <div>
+          <label for="ctrl-level">Escolaridade</label>
+          <div>
+            <div>
+                <input type="radio" name="level" />
+                <label for="ctrl-level-1">Fundamental</label>
+                <input type="radio" name="level" />
+                <label for="ctrl-level-2">Médio</label>
+                <input type="radio" name="level" />
+                <label for="ctrl-level-3">Superior</label>
+          </div>
+        </div>
+        <div>
+            <label for="ctrl-languages">Linguagens que você conhece</label>
+            <div id="ctrl-languages-java">
+                <input id="ctrl-languages-java" name="language1" type="checkbox">
+                <label for="ctrl-languages-java">Java</label>
+                <input id="ctrl-languages-csharp" name="language2" type="checkbox">
+                <label for="ctrl-languages-csharp">C#</label>
+                <input id="ctrl-languages-javascript" name="language3" type="checkbox">
+                <label for="ctrl-languages-javascript">JavaScript</label>
+                <input id="ctrl-languages-python" name="language4" type="checkbox">
+                <label for="ctrl-languages-python">Python</label>
+            </div>
+        </div>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Apagar tudo" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
