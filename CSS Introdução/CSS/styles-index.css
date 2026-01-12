@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+h1,
+h2 {
+  color: blue;
+}
+h1:hover {
+  color: aqua;
+  cursor: pointer;
+}
+p {
+  color: green;
+}
+.orange {
+  color: orangered;
+}
+.orange:hover {
+  color: orange;
+}
+.card img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid red;
+  margin-bottom: 20px;
+  padding: 10px;
+}

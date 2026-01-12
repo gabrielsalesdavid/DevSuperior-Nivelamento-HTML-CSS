@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --main-color: #205520;
+  --pane-padding: 5px 42px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+.generic-section {
+  min-height: 300px;
+  padding: 40px 20px;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.generic-section p {
+  font-size: 24px;
+}
+.generic-section h2 {
+  font-size: 32px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+footer {
+  padding: 40px 20px;
+  min-height: 200px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.footer-links-container a {
+  display: block;
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-company-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-company-container p {
+  text-align: center;
+}
+.footer-company-container img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.form-card {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #999;
+}
+.form-card form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  border: none;
+  background-color: #ddd;
+  height: 50px;
+  margin-bottom: 20px;
+}
+form input:focus {
+  outline: 1px solid #999;
+}
+.form-card form input {
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 20px;
+}
+.form-card form input::placeholder {
+  color: #aaf;
+}
+.from-card form button {
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8400;
+}
+.form-card form button:hover {
+  background-color: #fb0;
+}
