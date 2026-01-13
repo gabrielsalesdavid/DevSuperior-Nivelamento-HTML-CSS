@@ -54,6 +54,17 @@ Portfólio pessoal com design responsivo:
 - Cards de produtos
 - Navegação com links internos
 
+#### 6️⃣ **📖 Documentação Completa**
+Guias detalhados para cada linguagem:
+
+**Fundamentos:**
+- `Doc/Fundamentos/HTML.md` - Estrutura básica, elementos essenciais, formulários
+- `Doc/Fundamentos/CSS.md` - Seletores, cores, modelo de caixa, tipografia
+
+**Conceitos Avançados:**
+- `Doc/Conceitos/HTML.md` - Semântica avançada, ARIA, microdata, segurança
+- `Doc/Conceitos/CSS.md` - Flexbox avançado, Grid, animações, media queries
+
 ---
 
 ## 🎯 Conceitos Aprendidos
@@ -158,6 +169,16 @@ DevSuperior-Nivelamento-HTML-CSS/
 ├── README.md                     # Este arquivo
 ├── DOCUMENTATION.md              # Documentação técnica
 │
+├── Doc/                          # 📚 Documentação Completa
+│   ├── Fundamentos/
+│   │   ├── HTML.md              # Fundamentos de HTML
+│   │   └── CSS.md               # Fundamentos de CSS
+│   ├── Conceitos/
+│   │   ├── HTML.md              # Conceitos avançados de HTML
+│   │   └── CSS.md               # Conceitos avançados de CSS
+│   ├── DOCUMENTATION.md
+│   └── RELATORIO_EXECUCAO.md
+│
 ├── CSS Introdução/
 │   ├── CSS/
 │   │   ├── styles-index.css
@@ -225,7 +246,7 @@ DevSuperior-Nivelamento-HTML-CSS/
 ## ⭐ Status do Projeto
 
 - **Linguagens:** HTML5, CSS3
-- **Última atualização:** 12 de janeiro de 2026
+- **Última atualização:** 13 de janeiro de 2026
 - **Branch principal:** main
 - **Status:** ✅ Sincronizado com GitHub
 
@@ -233,7 +254,13 @@ DevSuperior-Nivelamento-HTML-CSS/
 
 ## 📝 Atualizações Recentes
 
-### v1.2 - Responsividade (Nova)
+### v1.3 - Documentação Completa (Nova) ✨
+- ✨ Adicionados guias de fundamentos para HTML e CSS
+- ✨ Documentação de conceitos avançados para ambas linguagens
+- ✨ Exemplos práticos e referências de cada tópico
+- ✨ Cobertura completa de semântica, ARIA, Grid, Flexbox e animações
+
+### v1.2 - Responsividade
 - ✨ Adicionado projeto de portfólio responsivo
 - ✨ Integração de Google Fonts (Montserrat, Poppins)
 - ✨ Implementação de media queries
